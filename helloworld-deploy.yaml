@@ -14,7 +14,7 @@ spec:
       - name: helloworld
         image: quay.io/weaveworks/helloworld:master-a000001
         args:
-        - -msg=  revert back! testing protected branches again
+        - -msg=  AND A 3RD TIME! testing protected branches again
         ports:
         - containerPort: 80
       - name: sidecar
