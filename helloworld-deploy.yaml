@@ -14,7 +14,7 @@ spec:
       - name: helloworld
         image: quay.io/weaveworks/helloworld:master-a000001
         args:
-        - -msg=  yaml no longer has error
+        - -msg=  take2 - yaml no longer has error
         ports:
         - containerPort: 80
       - name: sidecar
@@ -23,4 +23,3 @@ spec:
         - -addr=:8080
         ports:
         - containerPort: 8080
-error
