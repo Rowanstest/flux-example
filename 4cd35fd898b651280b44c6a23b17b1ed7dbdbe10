@@ -1,0 +1,1 @@
+{"jobID":"cd351a82-55c9-1ab6-44c9-4b06b005d3ff","spec":{"type":"policy","cause":{"Message":"","User":"Rowan Baker \u003cbakerrowan8@gmail.com\u003e"},"spec":{"default:deployment/helloworld":{"add":{"automated":"true"},"remove":{}}}},"result":null}
