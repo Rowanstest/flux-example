@@ -15,7 +15,7 @@ spec:
       - name: helloworld
         image: quay.io/weaveworks/helloworld:master-a000001
         args:
-        - -msg= 20181026 testing flux permissions in an org
+        - -msg= 20181026 testing flux permissions in an org- now not enforced on administrators
         ports:
         - containerPort: 80
       - name: sidecar
