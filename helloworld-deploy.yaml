@@ -13,13 +13,13 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: quay.io/weaveworks/helloworld:master-a000001
+        image: quay.io/weaveworks/helloworld:master-a000002
         args:
-        - -msg= 20181026 testing flux permissions in an org- now not enforced on administrators
+        - -msg= 20181026 testing flux permissions in an org- now not enforced on administrators + new release
         ports:
         - containerPort: 80
       - name: sidecar
-        image: quay.io/weaveworks/sidecar:master-a000001
+        image: quay.io/weaveworks/sidecar:master-a000002
         args:
         - -addr=:8080
         ports:
