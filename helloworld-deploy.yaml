@@ -15,7 +15,7 @@ spec:
       - name: helloworld
         image: quay.io/weaveworks/helloworld:master-a000002
         args:
-        - -msg= 20181026 testing flux permissions in an org- now not enforced on administrators + new release
+        - -msg= Creating new PR
         ports:
         - containerPort: 80
       - name: sidecar
