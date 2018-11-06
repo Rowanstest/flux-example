@@ -15,7 +15,7 @@ spec:
       - name: helloworld
         image: quay.io/weaveworks/helloworld:master-a000002
         args:
-        - -msg= 20181106 testing flux force push on tags
+        - -msg= 20181106 testing flux force push on tags, part 2. head changes overwrite.
         ports:
         - containerPort: 80
       - name: sidecar
